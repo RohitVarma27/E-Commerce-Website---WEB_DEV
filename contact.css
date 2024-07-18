@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+#navbar {
+    list-style: none;
+    display: flex;
+}
+
+#navbar li {
+    margin: 0 15px;
+}
+
+#navbar li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+#navbar li a.active {
+    color: #ff523b;
+}
+
+#mobile {
+    display: none;
+}
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+.about-header {
+    text-align: center;
+    background: #f2f2f2;
+    padding: 50px 0;
+}
+
+#contact-details .details {
+    text-align: center;
+}
+
+#contact-details .details h2 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+#contact-details .details h3 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#contact-details .contact-info {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+#contact-details .contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact-details .contact-info li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#contact-details .contact-info i {
+    margin-right: 10px;
+    font-size: 18px;
+    color: #ff523b;
+}
+
+#newsletter {
+    background: #ff523b;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 30px 80px;
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+footer .logo {
+    width: 150px;
+}
+
+footer h4 {
+    margin-bottom: 15px;
+}
+
+footer p, footer a {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #ff523b;
+    text-decoration: none;
+}
+
+footer .follow .icon {
+    display: flex;
+}
+
+footer .follow .icon i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+footer .install .row {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+footer .install img {
+    width: 100px;
+    margin-right: 10px;
+}
